@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/detaicReset.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <script>
+      window.onload = function(){
+            let fs = document.documentElement.clientWidth * 75 / 750;
+            document.querySelector("html").style.fontSize = fs + "px";
+        }
+    </script>
+    <title>详情页</title>
+</head>
+<body>
+  <header>
+      <a href="./index.html"><i class="iconfont icon-fanhui"></i></a>
+      <span>盈信计划2467号1期</span>
+      <i id="menu" class="iconfont icon-caidan"></i>
+  </header>
+  <div class="date">
+      <p class="date1">9.2%+0.5%</p>
+      <p class="date2">9.7%(9.2%+活动加息0.5%)</p>
+  </div>
+      <div class="key">
+          <span>100元起投</span>
+          <span class="key2">|</span>
+          <span>期限180天</span>
+      </div>
+      <div class="support">
+        <ul>
+            <li>
+                <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+            </li>
+            <li>
+                <i class="iconfont icon-mao"></i>浙大友创战略入股
+            </li>
+            <li>
+                <i class="iconfont icon-suo "></i>招财猫易贷严风控
+            </li>
+            <li>
+                <i class="iconfont icon-xinshouzhiyin "></i>千万级风险保障金
+            </li>
+        </ul>
+    </div> 
+    <div class="process">
+        <div class="pro-wrap">
+            <div class="pro-front"></div>
+            <div class="pro-block">37%</div>
+            <div class="pro-san"></div>
+        </div>
+        <p class="pro-info">
+            <span>已投资<em>40</em>人>></span>
+            <span>剩余可投<em>888888</em>元</span>
+        </p>
+    </div>
+    <div class="bottom1">查看项目详情></div>
+    <div class="bottom2">
+        <span class="one">收益估算</span>
+        <span class="two">立即投资</span>
+    </div>
+    <div class="mask" id="mask">
+       <div class="end">
+           <a href="./index.html" >
+               <i class="iconfont icon-zhuye"></i>
+               <span>首页</span>
+           </a>
+           <a href="#">
+            <i class="iconfont icon-suo"></i>
+            <span>安全保障</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-touzi"></i>
+            <span>我要投资</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-jiaruwomen"></i>
+            <span>账户中心</span>
+        </a>
+       </div>
+    </div>
+    
+    <script>
+        // 得到蒙版和nav小导航
+        let mask = document.getElementById("mask");
+        // 得到菜单小按钮
+        let menu = document.getElementById("menu");
+        // 给按钮注册一个点击事件  
+        // 当事件发生时  会调用后面的function(){}这个函数
+        menu.onclick = function(){
+            mask.style.display = "block";
+        }
+    </script>
+</body>
+</html>
