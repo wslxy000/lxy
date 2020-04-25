@@ -87,6 +87,7 @@ background-size: .6rem .6rem;
     border-radius: 5px;
 }
 .hot ul li .productName{
+    height: .4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,7 +113,7 @@ background-size: .6rem .6rem;
 }
 .hot ul li .productName span em{
     width: .4rem;
-    height: 0.4rem;
+    height: .4rem;
     font-size: .373333rem;
     background-color: #fa3012;
     color: #fff;
@@ -121,7 +122,7 @@ background-size: .6rem .6rem;
 }
 .hot ul li .productInfo{
     display: flex;
-    margin-top: .373333rem;
+    padding-top: .6rem;
 }
 .hot ul li .productInfo .data{
     height: 1.813333rem;
@@ -149,7 +150,9 @@ background-size: .6rem .6rem;
     margin-bottom: .426667rem;
 }
 .hot ul li .productInfo .circle{
+    height: 1.813333rem;
     margin-left: 1.333333rem;
+    margin-top: .133333rem;
 }
 .hot ul li .productInfo .circle img{
     width: 1.813333rem;
