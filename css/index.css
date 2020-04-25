@@ -92,10 +92,11 @@ background-size: .6rem .6rem;
     justify-content: space-between;
     align-items: center;
     font-size: .373333rem;
+    padding-top: .3rem;
 }
-.hot ul li .productName h3{
+.hot ul li .productName a h3{
     color: #000000;
-    padding-top: .333333rem;
+    padding-top: .4rem;
     padding-left: .333333rem;
 }
 .hot ul li .productName span{
@@ -132,6 +133,7 @@ background-size: .6rem .6rem;
 .hot ul li .productInfo .data em{
     font-size: .506667rem;
     color: #fb4034;
+    padding-left: .133333rem;
 }
 .hot ul li .productInfo .data span{
     font-size: .32rem;
@@ -151,7 +153,7 @@ background-size: .6rem .6rem;
 }
 .hot ul li .productInfo .circle{
     height: 1.813333rem;
-    margin-left: 1.333333rem;
+    margin-left: 1.5rem;
     margin-top: .133333rem;
 }
 .hot ul li .productInfo .circle img{
